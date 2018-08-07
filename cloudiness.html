@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+ 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   
+    
+    <title>Weather Dashboard Latitude</title>
+</head>
+<body style="background-color: lightblue"></body>
+    
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="index.html"> 
+                <span class="nav-color">Weather Dashboard Latitude</span></a>
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temperature.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind_speed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparisons.html"> Comparison</a></li>
+                <li><a href="data.html"> Data</a></li>                                           
+            </div>
+        </div>      
+    </nav>
+<!-- Containers
+================================================== -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Cloudiness</h1>
+      <img class = "img-responsive" src="images/Lat_vs_Cloudiness.png" 
+      style="width:100%; float: left; margin: 0px;" alt="temp image" >
+      <br>
+      <p>For the most part, cloud cover appears to be evenly distrubted among city latitude, however with a
+    slightly stronger percentage of cloud cover spaning over the northern hemisphere. </p>
+
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <h1>Visualizations</h1>
+          <hr>
+
+          <div class="row" style = "padding-bottom: 10px">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="images/Lat_vs_MaxTemp.png" style="width:100%" alt=""></a></div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="images/Lat_vs_Humidity.png" style="width:100%" alt=""></a></div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="images/Lat_vs_Cloudiness.png" style="width:100%" alt=""></a></div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="images/Lat_vs_WindSpeed.png" style="width:100%" alt=""></a></div>
+            </div> 
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+</div>
+</div>
+    <footer>
+       <p style = "text-align: center"><i class="glyphicon glyphicon-copyright-mark"> Copyright UT Bootcamp 2018</i></p>      
+    </footer>
+  </body>
+</html>
+
+
+
