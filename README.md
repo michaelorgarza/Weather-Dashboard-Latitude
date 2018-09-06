@@ -1,3 +1,3 @@
 # Weather-Dashboard-Latitude
 
-https://michaelorgarza.github.io/Weather-Dashboard/
+https://michaelorgarza.github.io/Weather_Dashboard/
